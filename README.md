@@ -1,11 +1,11 @@
-# 🚀 Testes Automatizados de API REST com Postman & Newman
+Testes Automatizados de API REST com Postman & Newman
 
 Projeto de testes automatizados de API REST cobrindo validações de contrato, regras de negócio, tempos de resposta, autenticação via Token e execução em linha de comando (CI/CD).
 
-## 🎯 Objetivo
+ Objetivo
 Garantir a integridade e confiabilidade de APIs públicas utilizando boas práticas de QA: validação do Caminho Feliz (Happy Path), Cenários Negativos (Unhappy Path), parametrização de ambientes com variáveis, extração dinâmica de Tokens de autenticação e automação headless via terminal.
 
-## 🛠️ Tecnologias e Ferramentas
+ Tecnologias e Ferramentas
 - **Postman Desktop** (Design de requisições e execução em lote com Collection Runner)
 - **Newman CLI** (Execução automatizada em linha de comando para pipelines de CI/CD)
 - **Node.js** (Ambiente de execução de JavaScript)
@@ -15,7 +15,7 @@ Garantir a integridade e confiabilidade de APIs públicas utilizando boas práti
 
 ---
 
-## 🧪 Cenários de Teste Cobertos
+ Cenários de Teste Cobertos
 
 | Método | Endpoint | Cenário / Objetivo | Validações Automatizadas | Status Esperado |
 | :--- | :--- | :--- | :--- | :--- |
@@ -27,7 +27,7 @@ Garantir a integridade e confiabilidade de APIs públicas utilizando boas práti
 
 ---
 
-## ▶️ Como Executar a Bateria de Testes
+ Como Executar a Bateria de Testes
 
 ### Opção 1: Via Linha de Comando (Newman CLI / CI-CD)
 > Requer Node.js instalado. Instale o Newman globalmente: `npm install -g newman`
